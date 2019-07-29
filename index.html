@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Wizard-v6</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/opensans-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- datepicker -->
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<div class="page-content">
+		<div class="wizard-heading">Form CV Expert System</div>
+		<div class="wizard-v6-content">
+			<div class="wizard-form">
+		        <form class="form-register" id="form-register" action="#" method="post">
+		        	<div id="form-total">
+		        		<!-- SECTION 1 -->
+			            <h2>
+			            	<p class="step-icon"><span>1</span></p>
+			            	<span class="step-text">CV</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div class="form-heading">
+			                		<h3>CV</h3>
+			                		<span>1/2</span>
+			                	</div>
+
+								<div class="form-row">
+									<div class="form-holder" width="50%">
+										<label for="job" class="special-label">Job Title:</label>
+										<select name="job" id="job" class="form-control">
+											<option value="operational" selected>Operational Level</option>
+											<option value="management">Management Level</option>
+											<option value="top">Top Level</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder" width="50%">
+										<label for="education" class="special-label">Education:</label>
+										<select name="education" id="education" class="form-control">
+											<option value="d3" selected>D3</option>
+											<option value="s1">S1</option>
+											<option value="s2">S2</option>
+											<option value="s3">S3</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder" width="35%">
+										<label for="experience" class="special-label">Experience:</label>
+										<select name="experience" id="experience" class="form-control">
+											<option value="0" selected>Freshgraduate</option>
+											<option value="1">1 Year</option>
+											<option value="2">2 Years</option>
+											<option value="3">3 Years</option>
+											<option value="4">4 Years</option>
+											<option value="5">5 Years</option>
+											<option value="6">6 Years</option>
+											<option value="7">7 Years</option>
+											<option value="8">8 Years</option>
+											<option value="9">9 Years</option>
+											<option value="10">10 or more</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<label for="job" class="special-label">Skillset:</label>
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="skillset" name="skillset" placeholder="Java, Javscript, PHP, etc." required>
+											
+										</label>
+									</div>
+									
+								</div>
+							</div>
+			            </section>
+			            <h2>
+			            	<p class="step-icon"><span>2</span></p>
+			            	<span class="step-text">Result</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div class="form-heading">
+			                		<h3>Result</h3>
+			                		<span>2/2</span>
+			                	</div>
+								<div class="table-responsive">
+									<table class="table">
+										<tbody>
+											<tr class="space-row">
+												<th>Job Title:</th>
+												<td id="job-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Education:</th>
+												<td id="education-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Experience:</th>
+												<td id="experience-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Skillset:</th>
+												<td id="skillset-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>CV Status:</th>
+												<td id="cv-status" style="color: #ed6464;"></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+			            </section>
+		        	</div>
+		        </form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.steps.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript">
+		
+		
+	</script>
+</body>
+</html>
