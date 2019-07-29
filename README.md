@@ -5,3 +5,8 @@ Screening CV yang dilakukan secara manual, membutuhkan waktu yang sangat lama ka
 
 # FUNCTION
 Function in js/main.js
+
+# How To Use
+1. Open index.html
+2. Select all category options
+3. Get the result
